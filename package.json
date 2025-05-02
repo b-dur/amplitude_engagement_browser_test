@@ -1,0 +1,31 @@
+{
+    "name": "amplitude_engagement_browser_test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/b-dur/amplitude_engagement_browser_test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/b-dur/amplitude_engagement_browser_test/issues"
+    },
+    "homepage": "https://github.com/b-dur/amplitude_engagement_browser_test#readme",
+    "description": "",
+    "dependencies": {
+        "@amplitude/engagement-browser": "^0.0.6"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.27.1",
+        "@babel/preset-env": "^7.27.1",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "ts-jest": "^29.3.2"
+    }
+}
